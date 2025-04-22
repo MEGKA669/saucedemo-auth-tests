@@ -1,5 +1,0 @@
-utils\user.class
-utils\userDataProvider.class
-test\sauceDemoTest.class
-test\authentificationTest.class
-test\baseTest.class
