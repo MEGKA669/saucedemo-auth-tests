@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceDemo - Login Test]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+  </listeners>
+  <test thread-count="5" name="Test Site Ecommerce(failed)" verbose="10">
+    <classes>
+      <class name="test.sauceDemoTest">
+        <methods>
+          <include name="sauceDemosearch"/>
+          <include name="sauceDemoLogout"/>
+          <include name="logout"/>
+          <include name="SetUpReporter"/>
+          <include name="sauceDemoLogin"/>
+          <include name="fermetureReporter"/>
+          <include name="sauceDemoAddProduct"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.sauceDemoTest -->
+    </classes>
+  </test> <!-- Test Site Ecommerce(failed) -->
+</suite> <!-- Failed suite [SauceDemo - Login Test] -->

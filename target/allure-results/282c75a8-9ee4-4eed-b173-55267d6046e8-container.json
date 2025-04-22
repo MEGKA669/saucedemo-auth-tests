@@ -1,0 +1,1 @@
+{"uuid":"282c75a8-9ee4-4eed-b173-55267d6046e8","name":"test.authentificationTest.quit","children":["3d433834-36c2-4796-9ab5-9c3fdeefa81c"],"description":"","befores":[],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1745314514851,"stop":1745314514982}],"start":1745314514851,"stop":1745314514982}
